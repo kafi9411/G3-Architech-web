@@ -61,6 +61,7 @@ nav li a{
 .baner-head{
    margin: 0 auto;
     width: 862px;
+    text-align: center;
 }
 .btn-primary{
     width: 180px;
@@ -75,4 +76,34 @@ nav li a{
     line-height: normal;
     border-radius: 8px;
     background: #FF900E;
+}
+.baner-img{
+    margin-top: 25px;
+    width: 100%;
+}
+@media screen and (max-width:576px) 
+{
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction:column ;
+    }
+    .baner-head{
+        margin: 0 auto;
+         width: auto;}
+    nav ul a{
+        font-size: 15px;
+    }     
+        
+}
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+        padding: 20px;}
+    nav{
+        flex-direction:column ;
+        }
+        .baner-head{
+            margin: 0 auto;
+             width: auto;}
 }
